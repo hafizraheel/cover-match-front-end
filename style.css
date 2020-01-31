@@ -1,0 +1,141 @@
+/* @import url('https://fonts.googleapis.com/css?family=sans-serif:300,400,500,700,900&display=swap');  */
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
+
+:root{
+    --color-white: #FFFFFF;
+    --color-login: #FD7C05;
+    --submit-contact: #FC7B05;
+    --color-footer: #F1F1F1
+}
+
+*{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.shadowBox {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+.auth a  {
+   
+    color: var(--color-login) !important;   
+}
+
+.back {
+    background: url('./images/hand-drawn.jpg') 100%  100%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.match {
+    min-height: 100vh;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.product {
+    border-radius: 5px;
+    border: none;
+    background-color: var(--color-white);
+}
+
+.product-card {
+    border-radius: 5px;
+    background-color: var(--color-white);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.45) !important;
+    border-radius: 2em;
+}
+
+.product:hover {
+    border: 1px solid #FD7C05;
+}
+
+.form-back {
+     background: url('./images/background-contact.jpg') ; 
+}
+
+.submit {
+    background: var(--submit-contact) !important;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+}
+
+textarea {
+    resize: none;
+    height: 8rem;
+}
+
+.touch {
+    font-size: 2rem !important;
+}
+
+.formImage {
+    background-image: url('./images/background-contact.png');
+    background-position: center;
+    background-size: cover; 
+    height: 110vh;
+    background-repeat: no-repeat;   
+}
+
+footer {
+    background-color: var(--color-footer); 
+    /* margin-top: 6rem !important; */
+    line-height: 2.2;
+}
+
+.para  {
+    line-height: 2.0;
+    letter-spacing: 2px;
+    font-family: sans-serif; 
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.privacy{
+    margin-top: 6rem !important;
+}
+
+.privacy h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.inputData {
+    border: none;
+    outline: 0;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+.formWidth {
+    width: 50%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.partners {
+    background-color: #D7D7D7;
+}
+
+
+@media only Screen and (max-width: 768px) {
+    .formImage {
+        background-image: none;
+        
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formWidth {
+        width: 100%;
+    }
+
+
+}
