@@ -1,141 +1,174 @@
 /* @import url('https://fonts.googleapis.com/css?family=sans-serif:300,400,500,700,900&display=swap');  */
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap");
 
-:root{
-    --color-white: #FFFFFF;
-    --color-login: #FD7C05;
-    --submit-contact: #FC7B05;
-    --color-footer: #F1F1F1
+:root {
+  --color-white: #ffffff;
+  --color-login: #fd7c05;
+  --submit-contact: #fc7b05;
+  --color-footer: #f1f1f1;
+
+  --color-primary: #fd7c05;
+  --color-primary-light: rgba(253, 125, 5, 0.9);
+
+  --color-black: rgba(0, 0, 0, 0.7);
+  --color-gray: #f2f2f2;
 }
 
-*{
-    font-family: 'Libre Franklin', sans-serif;
+* {
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 1.8 !important;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .shadowBox {
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15) !important;
 }
 
-
-.auth a  {
-   
-    color: var(--color-login) !important;   
+.auth a {
+  color: var(--color-login) !important;
 }
 
 .back {
-    background: url('./images/hand-drawn.jpg') 100%  100%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+  background: url("./images/hand-drawn.jpg") 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .match {
-    min-height: 100vh;
-    display: flex !important;
-    justify-content: center !important;
+  min-height: 100vh;
+  display: flex !important;
+  justify-content: center !important;
 }
 
 .product {
-    border-radius: 5px;
-    border: none;
-    background-color: var(--color-white);
-}
-
-.product-card {
-    border-radius: 5px;
-    background-color: var(--color-white);
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.45) !important;
-    border-radius: 2em;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--color-white);
 }
 
 .product:hover {
-    border: 1px solid #FD7C05;
+  border: 1px solid #fd7c05;
 }
 
 .form-back {
-     background: url('./images/background-contact.jpg') ; 
+  background: url("./images/background-contact.jpg");
 }
 
 .submit {
-    background: var(--submit-contact) !important;
-    border: 0;
-    outline: 0;
-    border-radius: 15px;
+  background: var(--submit-contact) !important;
+  border: 0;
+  outline: 0;
+  border-radius: 15px;
 }
 
 textarea {
-    resize: none;
-    height: 8rem;
+  resize: none;
+  height: 8rem;
 }
 
 .touch {
-    font-size: 2rem !important;
+  font-size: 2rem !important;
 }
 
 .formImage {
-    background-image: url('./images/background-contact.png');
-    background-position: center;
-    background-size: cover; 
-    height: 110vh;
-    background-repeat: no-repeat;   
+  background-image: url("./images/background-contact.png");
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+  background-repeat: no-repeat;
 }
 
-footer {
-    background-color: var(--color-footer); 
-    /* margin-top: 6rem !important; */
-    line-height: 2.2;
+.heading-main {
+  letter-spacing: 1.5px;
 }
 
-.para  {
-    line-height: 2.0;
-    letter-spacing: 2px;
-    font-family: sans-serif; 
-    font-size: 18px;
-    font-weight: 100;
+.para {
+  line-height: 2;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.8) !important;
+  font-size: 15px;
+  font-weight: 100;
 }
 
-.privacy{
-    margin-top: 6rem !important;
+.privacy {
+  margin-top: 6rem !important;
 }
 
 .privacy h3 {
-    font-size: 1.25em;
-    font-weight: bold;
+  font-size: 1.25em;
+  font-weight: bold;
 }
 
-.inputData {
-    border: none;
-    outline: 0;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15) !important;
+/* .inputData {
+  border: none;
+  outline: 0;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15) !important;
 }
 
 .formWidth {
-    width: 50%;
-}
+  width: 50%;
+} */
 
 .contact {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
-.partners {
-    background-color: #D7D7D7;
+/* Nk-Style */
+
+.covermatch-primary-btn-color {
+  color: var(--color-primary) !important;
 }
 
+.covermatch-primary-btn-color:hover {
+  color: var(--color-black) !important;
+}
+
+.section-form {
+  background-image: url(/images/background-contact.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.section-form .shadow-lg {
+  box-shadow: 0 0.1rem 1rem #777 !important;
+}
+
+.cover-match-btn-primary {
+  background-color: var(--color-primary) !important;
+  border-radius: 1rem !important;
+
+  font-size: 1.2rem;
+}
+
+.cover-match-btn-primary:hover {
+  background-color: var(--color-primary-light) !important;
+}
+
+.covermatch-bg-1 {
+  background-color: var(--color-gray);
+}
+
+footer a {
+  line-height: 2.2 !important;
+}
+
+/* ------ */
 
 @media only Screen and (max-width: 768px) {
-    .formImage {
-        background-image: none;
-        
-    }
+  .section-form {
+    background-image: none;
+  }
 
-    .contact {
-        display: flex;
-        flex-direction: column;
-    }
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .formWidth {
-        width: 100%;
-    }
-
-
+  .formWidth {
+    width: 100%;
+  }
 }
