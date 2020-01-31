@@ -102,15 +102,7 @@ textarea {
   font-weight: bold;
 }
 
-/* .inputData {
-  border: none;
-  outline: 0;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15) !important;
-}
 
-.formWidth {
-  width: 50%;
-} */
 
 .contact {
   display: flex;
@@ -128,7 +120,7 @@ textarea {
 }
 
 .section-form {
-  background-image: url(/images/background-contact.png);
+  background-image: url(./images/background-contact.png);
   background-position: center;
   background-size: cover;
 }
