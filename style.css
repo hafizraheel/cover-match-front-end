@@ -3,9 +3,7 @@
 
 :root {
   --color-white: #ffffff;
-  --color-login: #fd7c05;
   --submit-contact: #fc7b05;
-  --color-footer: #f1f1f1;
 
   --color-primary: #fd7c05;
   --color-primary-light: rgba(253, 125, 5, 0.9);
@@ -24,11 +22,11 @@ body {
 }
 
 .shadowBox {
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3) !important;
 }
 
 .auth a {
-  color: var(--color-login) !important;
+  color: var(--color-primary) !important;
 }
 
 .back {
@@ -37,20 +35,22 @@ body {
   background-repeat: no-repeat;
 }
 
-.match {
-  min-height: 100vh;
-  display: flex !important;
-  justify-content: center !important;
-}
-
 .product {
   border-radius: 5px;
   border: none;
   background-color: var(--color-white);
+  transition: all 0.2s ease-in;
 }
 
 .product:hover {
-  border: 1px solid #fd7c05;
+  outline: 1px solid var(--color-primary);
+  color: var(--color-primary);
+  cursor: pointer;
+  box-shadow: 0 0.3rem 0.5rem var(--color-black);
+}
+
+.product-card {
+  border-radius: 2rem;
 }
 
 .form-back {
@@ -128,7 +128,7 @@ textarea {
 }
 
 .section-form {
-  background-image: url(/images/background-contact.png);
+  background-image: url(./images/background-contact.png);
   background-position: center;
   background-size: cover;
 }
