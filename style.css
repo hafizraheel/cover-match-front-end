@@ -36,10 +36,15 @@ body {
 }
 
 .product {
-  border-radius: 5px;
+  border-radius: 1em;
   border: none;
   background-color: var(--color-white);
   transition: all 0.2s ease-in;
+}
+
+.product-card {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15) !important;
+  border-radius: 2em;
 }
 
 .product:hover {
@@ -102,15 +107,15 @@ textarea {
   font-weight: bold;
 }
 
-/* .inputData {
-  border: none;
-  outline: 0;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15) !important;
+.insuranceText {
+  font-size: 13.132px;
 }
 
-.formWidth {
-  width: 50%;
-} */
+.quote {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
 
 .contact {
   display: flex;
@@ -128,7 +133,11 @@ textarea {
 }
 
 .section-form {
+<<<<<<< HEAD
   background-image: url(./images/background-contact.png);
+=======
+  background-image: url("./images/background-contact.png");
+>>>>>>> 8c43231f591993dccc56616fc5aed24e4b7687e4
   background-position: center;
   background-size: cover;
 }
@@ -156,6 +165,20 @@ footer a {
   line-height: 2.2 !important;
 }
 
+.carousel-control-next-icon {
+  background-image: url('./images/chevron-right.svg');
+}
+
+.carousel-control-prev-icon {
+  background-image: url('./images/chevron-left.svg');
+}
+
+.partners {
+  background-color: #f2f2f2;
+}
+
+
+
 /* ------ */
 
 @media only Screen and (max-width: 768px) {
@@ -171,4 +194,15 @@ footer a {
   .formWidth {
     width: 100%;
   }
+
+  .quote {
+    font-weight: bolder;
+    font-size: 1em;
+  }
 }
+
+
+
+
+
+
