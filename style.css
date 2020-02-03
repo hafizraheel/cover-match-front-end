@@ -44,9 +44,14 @@ body {
 }
 
 .product {
-  border-radius: 5px;
+  border-radius: 1em;
   border: none;
   background-color: var(--color-white);
+}
+
+.product-card {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15) !important;
+  border-radius: 2em;
 }
 
 .product:hover {
@@ -102,6 +107,14 @@ textarea {
   font-weight: bold;
 }
 
+.insuranceText {
+  font-size: 13.132px;
+}
+
+.quote {
+  font-size: 2em;
+  font-weight: bolder;
+}
 
 
 .contact {
@@ -148,6 +161,20 @@ footer a {
   line-height: 2.2 !important;
 }
 
+.carousel-control-next-icon {
+  background-image: url('./images/chevron-right.svg');
+}
+
+.carousel-control-prev-icon {
+  background-image: url('./images/chevron-left.svg');
+}
+
+.partners {
+  background-color: #f2f2f2;
+}
+
+
+
 /* ------ */
 
 @media only Screen and (max-width: 768px) {
@@ -163,4 +190,15 @@ footer a {
   .formWidth {
     width: 100%;
   }
+
+  .quote {
+    font-weight: bolder;
+    font-size: 1em;
+  }
 }
+
+
+
+
+
+
