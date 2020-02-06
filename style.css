@@ -1,5 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css?family=sans-serif:300,400,500,700,900&display=swap');  */
-@import url("https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
 :root {
   --color-white: #ffffff;
@@ -13,8 +12,8 @@
 }
 
 * {
-  font-family: "Libre Franklin", sans-serif;
-  line-height: 1.8 !important;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.8;
 }
 
 body {
@@ -36,8 +35,7 @@ body {
 }
 
 .product {
-  border-radius: 1em;
-  border: none;
+  border-radius: 0.2em;
   background-color: var(--color-white);
   transition: all 0.2s ease-in;
 }
@@ -107,15 +105,10 @@ textarea {
   font-weight: bold;
 }
 
-.insuranceText {
-  font-size: 13.132px;
-}
-
 .quote {
   font-size: 2em;
   font-weight: bolder;
 }
-
 
 .contact {
   display: flex;
@@ -133,11 +126,8 @@ textarea {
 }
 
 .section-form {
-<<<<<<< HEAD
-  background-image: url(./images/background-contact.png);
-=======
   background-image: url("./images/background-contact.png");
->>>>>>> 8c43231f591993dccc56616fc5aed24e4b7687e4
+
   background-position: center;
   background-size: cover;
 }
@@ -148,13 +138,15 @@ textarea {
 
 .cover-match-btn-primary {
   background-color: var(--color-primary) !important;
+  color: var(--color-white) !important;
   border-radius: 1rem !important;
 
   font-size: 1.2rem;
 }
 
 .cover-match-btn-primary:hover {
-  background-color: var(--color-primary-light) !important;
+  background-color: var(--color-white) !important;
+  color: var(--color-primary-light) !important;
 }
 
 .covermatch-bg-1 {
@@ -166,18 +158,16 @@ footer a {
 }
 
 .carousel-control-next-icon {
-  background-image: url('./images/chevron-right.svg');
+  background-image: url("./images/chevron-right.svg");
 }
 
 .carousel-control-prev-icon {
-  background-image: url('./images/chevron-left.svg');
+  background-image: url("./images/chevron-left.svg");
 }
 
 .partners {
   background-color: #f2f2f2;
 }
-
-
 
 /* ------ */
 
@@ -200,9 +190,3 @@ footer a {
     font-size: 1em;
   }
 }
-
-
-
-
-
-
