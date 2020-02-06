@@ -117,6 +117,46 @@ textarea {
 
 /* Nk-Style */
 
+
+/* Services-Home-insurance */
+
+.services-home-insurance .banner {
+  background: url(/images/contactus.jpg) no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nk-justify-content-around {
+  justify-content: space-around;
+}
+
+.nk-heading--white {
+  color: rgba(163, 154, 154, 0.76);
+}
+
+.nk-border-radius-25 {
+  border-radius: 15px !important;
+}
+
+.nk-input::-webkit-outer-spin-button,
+.nk-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cover-match-primary-heading {
+  font-size: 2rem;
+  font-weight: 800 !important;
+
+  line-height: 1.2 !important;
+}
+
+.cover-match-primary-paragraph {
+  font-size: 1.1rem;
+}
+
 .covermatch-primary-btn-color {
   color: var(--color-primary) !important;
 }
@@ -189,4 +229,13 @@ footer a {
     font-weight: bolder;
     font-size: 1em;
   }
+
+  .cover-match-primary-heading {
+    font-size: .9rem;
+  }
+
+  .cover-match-primary-paragraph {
+    font-size: .8rem;
+  }
+
 }
