@@ -19,12 +19,14 @@
   <body>
     <!-- Section-Header-Start  -->
     <header class="fixed-top bg-white">
-      <nav class="navbar navbar-expand-lg navbar-light shadowBox px-1 px-sm-3">
+      <nav
+        class="navbar navbar-expand-lg navbar-light shadowBox px-1 px-sm-3"
+      >
         <a class="navbar-brand mr-0 mr-sm-3" href="#"
-          ><img src="./images/cover.png" alt="Logo"
+          ><img src="/images/cover.png" alt="Logo"
         /></a>
         <button
-          class="navbar-toggler mr-3 mr-sm-0"
+          class="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -43,8 +45,18 @@
             <li class=" px-2">
               <a class="nav-link px-1" href="home.html">Home</a>
             </li>
+            <li class="nav-link text-capitalize px-2">
+              <div class="dropdown">
+                <div class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Services
+                </div>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item text-black-50" href="/services-home-insurance.html">services-home-insurance</a>
+                </div>
+              </div>
+            </li>
             <li class=" px-2">
-              <a class="nav-link px-1" href="about.html">About us</a>
+              <a class="nav-link px-1" href="about.html">About Us</a>
             </li>
             <li class=" px-2">
               <a class="nav-link  px-1" href="privacy.html"> FAQ'S</a>
@@ -53,13 +65,17 @@
               <a class="nav-link px-1" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link covermatch-primary-btn-color" href="#">Login</a>
+              <a class="nav-link covermatch-primary-btn-color" href="#"
+                >Login</a
+              >
             </li>
             <span
-              class="border-right my-3 d-lg-block border-danger"
+              class="border-right my-3 d-none d-lg-block border-danger"
             ></span>
             <li class="nav-item">
-              <a class="nav-link covermatch-primary-btn-color" href="#">Sign up</a>
+              <a class="nav-link covermatch-primary-btn-color" href="#"
+                >Sign up</a
+              >
             </li>
           </ul>
         </div>
