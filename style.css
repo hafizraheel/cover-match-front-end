@@ -128,6 +128,27 @@ textarea {
   background-size: cover;
 }
 
+/* Cover-Match-Card-Section  */
+
+.cover-match-card-section button {
+  font-size: 1rem;
+}
+
+.cover-match-card-section .card-body {
+  font-size: .9rem;
+}
+
+/* -------- */
+
+
+
+
+/* ---------- */
+
+.nk-text-align-responsive {
+  text-align: center;
+}
+
 .nk-justify-content-around {
   justify-content: space-around;
 }
@@ -146,9 +167,15 @@ textarea {
   margin: 0;
 }
 
+.cover-match-color-primary-text i {
+  color: var(--color-primary);
+}
+
 .cover-match-primary-heading {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 800 !important;
+
+  margin-bottom: .3rem;
 
   line-height: 1.2 !important;
 }
@@ -236,6 +263,18 @@ footer a {
 
   .cover-match-primary-paragraph {
     font-size: .8rem;
+  }
+
+  .cover-match-card-section button {
+    font-size: .7rem;
+  }
+
+  .cover-match-card-section .card-body {
+    font-size: .6rem;
+  }
+
+  .nk-text-align-responsive {
+    text-align: left;
   }
 
 }
