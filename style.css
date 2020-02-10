@@ -141,7 +141,9 @@ textarea {
 
 /* -------- */
 
-
+.cover-match-height-card {
+  height: 270px;
+}
 
 
 /* ---------- */
@@ -174,8 +176,8 @@ textarea {
 
 /* --------- */
 
-.cover-match-primary-heading {
-  font-size: 1.5rem;
+.cover-match-primary-heading,
+.cover-match-primary-heading-small {
   font-weight: 800 !important;
   color: #000;
 
@@ -184,8 +186,20 @@ textarea {
   line-height: 1.2 !important;
 }
 
+.cover-match-primary-heading {
+  font-size: 1.5rem;
+}
+
+.cover-match-primary-heading-small {
+  font-size: 1.2rem;
+}
+
 .cover-match-primary-paragraph {
   font-size: 1.1rem;
+}
+
+.cover-match-primary-paragraph-small {
+  font-size: .85rem;
 }
 
 /* ------- */
@@ -277,6 +291,15 @@ footer a {
 
   .cover-match-card-section .card-body {
     font-size: .6rem;
+  }
+
+
+  .cover-match-primary-heading-small {
+    font-size: .8rem;
+  }
+
+  .cover-match-primary-paragraph-small {
+    font-size: .65rem;
   }
 
   .nk-text-align-responsive {
