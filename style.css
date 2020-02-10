@@ -14,6 +14,7 @@
 * {
   font-family: "Open Sans", sans-serif;
   line-height: 1.8;
+
 }
 
 body {
@@ -171,9 +172,12 @@ textarea {
   color: var(--color-primary);
 }
 
+/* --------- */
+
 .cover-match-primary-heading {
   font-size: 1.5rem;
   font-weight: 800 !important;
+  color: #000;
 
   margin-bottom: .3rem;
 
@@ -183,6 +187,8 @@ textarea {
 .cover-match-primary-paragraph {
   font-size: 1.1rem;
 }
+
+/* ------- */
 
 .covermatch-primary-btn-color {
   color: var(--color-primary) !important;
