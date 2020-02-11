@@ -89,22 +89,6 @@ textarea {
   letter-spacing: 1.5px;
 }
 
-.para {
-  line-height: 2;
-  letter-spacing: 2px;
-  color: rgba(0, 0, 0, 0.8) !important;
-  font-size: 15px;
-  font-weight: 100;
-}
-
-.privacy {
-  margin-top: 6rem !important;
-}
-
-.privacy h3 {
-  font-size: 1.25em;
-  font-weight: bold;
-}
 
 .quote {
   font-size: 2em;
