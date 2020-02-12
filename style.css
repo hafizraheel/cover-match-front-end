@@ -104,6 +104,23 @@ textarea {
 
 /* Nk-Style */
 
+.cover-match-form a {
+  color: var(--color-dark-gray);
+}
+
+.cover-match-form a:hover {
+  text-decoration: none;
+  background-color: rgba(0, 47, 100, 0.9);
+  color: var(--color-white);
+}
+
+.cover-match-form__gallery {
+  width: 130px;
+  height: 130px;
+
+  border-radius: 15px;
+}
+
 
 /* Services-Home-insurance */
 
@@ -300,6 +317,12 @@ footer a:hover {
 
   .cover-match-primary-paragraph-small {
     font-size: .65rem;
+  }
+
+  .cover-match-form__gallery {
+    width: 100px;
+    height: 100px;
+
   }
 
   .nk-text-align-responsive {
