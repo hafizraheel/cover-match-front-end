@@ -8,6 +8,8 @@
   --color-primary-light: rgba(253, 125, 5, 0.9);
 
   --color-black: rgba(0, 0, 0, 0.7);
+
+  --color-dark-gray: #494f54;
   --color-gray: #f2f2f2;
 }
 
@@ -230,10 +232,6 @@ textarea {
   background-color: var(--color-gray);
 }
 
-footer a {
-  line-height: 2.2 !important;
-}
-
 .carousel-control-next-icon {
   background-image: url("./images/chevron-right.svg");
 }
@@ -245,6 +243,18 @@ footer a {
 .partners {
   background-color: #f2f2f2;
 }
+
+footer a {
+  font-size: 1rem;
+  line-height: 2 !important;
+  color: var(--color-dark-gray);
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
 
 /* ------ */
 
@@ -294,6 +304,10 @@ footer a {
 
   .nk-text-align-responsive {
     text-align: left;
+  }
+
+  footer a {
+    font-size: .6rem;
   }
 
 }
