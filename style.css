@@ -105,10 +105,12 @@ textarea {
 /* ----Select-2-Custom-Style---- */
 
 .select2-container {
-  width: 100% !important;
-  padding-right: 1rem;
-  margin: 0 .5rem !important;
+  margin-right: .5rem !important;
 }
+
+/* .select2-container--open .select2-dropdown--above {
+  width: 100% !important;
+} */
 
 .select2-container--default .select2-selection--single {
   height: 50px !important;
@@ -122,7 +124,6 @@ textarea {
   border-width: 6px 5px 0 5px !important;
 
 }
-
 
 /* Nk-Style */
 
