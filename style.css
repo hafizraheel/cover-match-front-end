@@ -38,7 +38,7 @@ body {
 }
 
 .product {
-  border-radius: 0.2em;
+  border-radius: 0.3em;
   background-color: var(--color-white);
   transition: all 0.2s ease-in;
 }
@@ -108,9 +108,6 @@ textarea {
   margin-right: .5rem !important;
 }
 
-/* .select2-container--open .select2-dropdown--above {
-  width: 100% !important;
-} */
 
 .select2-container--default .select2-selection--single {
   height: 50px !important;
@@ -150,7 +147,7 @@ textarea {
 /* Services-Home-insurance */
 
 .services-home-insurance .banner {
-  background: url(/images/contactus.jpg) no-repeat top center;
+  background: url(./images/contactus.jpg) no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -161,6 +158,42 @@ textarea {
 
 .section-travel-insurance i {
   color: var(--color-primary);
+}
+
+/* Section-Car-insurance */
+
+.services-car-insurance {
+  background: url(./images/services-insurance/services-car-copy-Mon.jpg) no-repeat bottom;
+  background-size: cover;
+}
+
+/* Section-Bike-insurance */
+
+.services-bike-insurance {
+  background: url(./images/services-insurance/Motor-Bike-I.jpg) no-repeat bottom;
+  background-size: cover;
+}
+
+/* Section-life-insurance */
+
+.services-life-insurance {
+  background: url(./images/services-insurance/Insurance-policy.jpg) no-repeat bottom;
+  background-size: cover;
+}
+
+/* Section-health-insurance */
+
+.services-health-insurance {
+  background: url(./images/services-insurance/Hospital-illustration1.jpg) no-repeat bottom;
+  background-size: cover;
+}
+
+
+/* Section-Yacht-insurance */
+
+.services-yacht-insurance {
+  background: url(./images/services-insurance/Yacht.jpg) no-repeat top;
+  background-size: cover;
 }
 
 /* Cover-Match-Card-Section  */
@@ -300,6 +333,13 @@ footer a:hover {
 
 /* ------ */
 
+@media only Screen and (max-width: 550px) {
+  .cover-match-primary-heading {
+    font-size: .9rem;
+  }
+
+}
+
 @media only Screen and (max-width: 768px) {
   .section-form {
     background-image: none;
@@ -319,8 +359,12 @@ footer a:hover {
     font-size: 1em;
   }
 
+  .cover-match-btn-primary {
+    font-size: .5rem !important;
+  }
+
   .cover-match-primary-heading {
-    font-size: .9rem;
+    font-size: 1.1rem;
   }
 
   .cover-match-primary-paragraph {
