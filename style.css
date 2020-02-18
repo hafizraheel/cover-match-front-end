@@ -130,6 +130,8 @@ textarea {
 
 .cover-match-form__main-form a:hover,
 .cover-match-form__main-form a:active,
+.cover-match-form__main-form button:focus,
+.cover-match-form__main-form button:active,
 .cover-match-custom-active {
   text-decoration: none;
   background-color: rgba(0, 47, 100, 0.9) !important;
