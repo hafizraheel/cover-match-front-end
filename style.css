@@ -212,6 +212,7 @@ textarea {
 
 .cover-match-height-card {
   height: 270px;
+  border-radius: 35px;
 }
 
 
@@ -226,7 +227,7 @@ textarea {
 }
 
 .nk-heading--white {
-  color: rgba(163, 154, 154, 0.76);
+  color: var(--color-white);
 }
 
 .nk-border-radius-25 {
