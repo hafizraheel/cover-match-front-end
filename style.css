@@ -158,6 +158,11 @@ textarea {
 
 /* Section-Travel-insurance */
 
+.services-travel-insurance {
+  background: url(https://thumbs.dreamstime.com/b/friends-travel-around-city-electronic-map-tablet-flat-d-character-illustration-concept-animation-web-165941194.jpg) no-repeat bottom;
+  background-size: cover;
+}
+
 .section-travel-insurance i {
   color: var(--color-primary);
 }

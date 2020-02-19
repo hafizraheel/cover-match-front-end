@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 
-    <title>Cover-Match-Form-Car-insurance</title>
+    <title>Cover-Match-Form-Home-insurance</title>
 </head>
 
 <body>
@@ -90,15 +90,15 @@
         <!-- Section-Main-Start  -->
         <main class="cover-match-form pt-5">
 
-            <!-- Cover-match-form-on-25%-start -->
+            <!-- Cover-match-form-on-0%-start -->
             <section class="container pt-5">
                 <div class="row justify-content-between">
-                    <div class="cover-match-form__main-form col-lg-9">
+                    <div class="cover-match-form__main-form col-lg-7">
                         <span>
-                            <div>25% Done</div>
+                            <div>0% Done</div>
                             <div class="progress rounded-pill">
-                                <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;"
-                                    aria-valuenow="73" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                    style="width: 0%;" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </span>
 
@@ -110,39 +110,58 @@
                             <div class="col col-md-10">
                                 <div
                                     class="covermatch-bg-1 font-weight-bold border rounded p-2 text-md-left cover-match-primary-paragraph">
-                                    How many member do you want to apply insurance for?
+                                    A few simple questions to get your Home Insurance quotes.
                                 </div>
                             </div>
 
                             <div class="form-group w-100 mt-4">
-
+                                <div class="font-weight-bold text-center text-md-left mb-2">
+                                    What is the value of your non-movable Home Contents?
+                                    <span class="text-danger small">*</span>
+                                    <i class="fas fa-info-circle" data-toggle="tooltip" data-placement="bottom"
+                                        title="These are items in your house such as funrniture, electronics, clothes etc.">
+                                    </i>
+                                </div>
                                 <select class="form-control js-example-basic-single" name="" id="">
-                                    <option value="1 Person">1 Person</option>
-                                    <option value="2 Person">2 Person</option>
-                                    <option value="3 Person">3 Person</option>
-                                    <option value="4 Person">4 Person</option>
-                                    <option value="5 Person">5 Person</option>
-                                    <option value="6 Person">6 Person</option>
-                                    <option value="7 Person">7 Person</option>
-                                    <option value="8 Person">8 Person</option>
-                                    <option value="9 Person">9 Person</option>
-                                    <option value="10 Person">10 Person</option>
+                                    <option value="" selected></option>
+                                    <option value="AED 1 - 50,000">AED 1 - 50,000</option>
+                                    <option value=" AED 50,000 - 75,000">AED 50,000 - 75,000</option>
+                                    <option value="AED 75,000 - 100,000">AED 75,000 - 100,000</option>
+                                    <option value="AED 100,000 - 150,000">AED 100,000 - 150,000</option>
+                                    <option value=" AED 150,000 - 200,000">AED 150,000 - 200,000</option>
+                                    <option value="AED 200,000 - 250,000">AED 200,000 - 250,000</option>
+                                    <option value="AED 250,000 and above">AED 250,000 and above</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group w-100 mt-4">
+                                <div class="font-weight-bold text-center text-md-left mb-2">
+                                    What is the value of your movable Personal Belongings?
+                                    <span class="text-danger small">*</span>
+                                    <i class="fas fa-info-circle" data-toggle="tooltip" data-placement="bottom"
+                                        title="These are items you take outside your house occassionally such as jewellery, watches, mobile phones, laptops, handbages etc.">
+                                    </i>
+                                </div>
+                                <select class="form-control js-example-basic-single" name="" id="">
+                                    <option value="" selected></option>
+                                    <option value="AED 1 - 3,000">AED 1 - 3,000</option>
+                                    <option value="AED 3,000 - 5,000">AED 3,000 - 5,000</option>
+                                    <option value="AED 5,000 - 10,000">AED 5,000 - 10,000</option>
+                                    <option value="AED 10,000 - 15,000">AED 10,000 - 15,000</option>
+                                    <option value="AED 15,000 - 25,000">AED 15,000 - 25,000</option>
+                                    <option value="AED 25,000 - 30,000">AED 25,000 - 30,000</option>
+                                    <option value="AED 30,000 - 50,000">AED 30,000 - 50,000</option>
+                                    <option value="AED 50,000 and above">AED 50,000 and above</option>
                                 </select>
                             </div>
 
                         </div>
 
-                        <div class="d-flex justify-content-between  mt-4">
+                        <div class="d-flex justify-content-end  mt-4">
+
 
                             <div>
-                                <a href="./cover-match-form-health-insurance.html" class="btn btn-outline-secondary">
-                                    <i class="fas fa-angle-left" aria-hidden="true"></i>
-                                    Back
-                                </a>
-                            </div>
-
-                            <div>
-                                <a href="./cover-match-form-health-insurance-3.html" class="btn btn-outline-secondary">
+                                <a href="/" class="btn btn-outline-secondary">
                                     Next <i class="fas fa-angle-right"></i>
                                 </a>
                             </div>
@@ -151,23 +170,142 @@
 
                     </div>
 
-                    <div class="cover-match-form__side-bar d-none d-lg-block covermatch-bg-1 col-3 rounded p-3">
-                        <div>
-                            <div class="h6 font-weight-bold text-uppercase">INSURANCE DETAILS</div>
-                        </div>
-                        <div class="d-flex justify-content-between small">
-                            <span>Insurance Type</span>
-                            <a href="/" class="font-weight-bold text-info">Worker</a>
-                        </div>
-                        <div class="border-top border-secondary pt-3 mt-4">
-                            <div class="h6 font-weight-bold text-uppercase">INSURER INFORMATION</div>
+                    <div class="cover-match-form__side-bar d-none d-lg-block col-4 rounded p-3">
+                        <div class="cover-match-primary-heading-small mb-4">Your Policy details are here</div>
+                        <div class="covermatch-bg-1 h-100">
+                            <div class="p-3">
+                                <div class="h6 font-weight-bold text-uppercase">Coverage Details</div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
             </section>
-            <!-- Cover-match-form-on-25%-end -->
+            <!-- Cover-match-form-on-0%-end -->
 
+            <!-- Cover-match-form-on-50%-start -->
+            <section class="container pt-5">
+                <div class="row justify-content-between">
+                    <div class="cover-match-form__main-form col-lg-7">
+                        <span>
+                            <div>50% Done</div>
+                            <div class="progress rounded-pill">
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                    style="width: 50%;" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </span>
+
+                        <div class="row mx-0 align-items-center flex-column flex-md-row text-center pt-4">
+
+                            <div class="col mb-3 mb-md-0">
+                                <img class="img-fluid" src="https://car-insurance.souqalmal.com/assets/images/sam.svg"
+                                    alt="info">
+                            </div>
+                            <div class="col col-md-10">
+                                <div
+                                    class="covermatch-bg-1 font-weight-bold border rounded p-2 text-md-left cover-match-primary-paragraph">
+                                    You're just one step away from getting a quote!
+                                </div>
+                            </div>
+
+                            <div class="w-100 mt-5">
+                                <form>
+                                    <div class="row justify-content-center">
+                                        <div class="col-12 col-sm-6 col-md-5 mb-3 mb-lg-0 was-validated">
+
+                                            <input id="firstname" class="form-control is-invalid py-4" type="text"
+                                                placeholder="First name *" required="">
+                                        </div>
+
+                                        <div class="col-12 col-sm-6 col-md-5 mb-3 mb-lg-0">
+
+                                            <input id="lastname" class="form-control py-4" type="text"
+                                                placeholder="Last name *" required="">
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-center my-4">
+                                        <div class="col-12 col-sm-6 col-md-5 mb-3 mb-lg-0">
+
+                                            <input id="email" class="form-control py-4" type="email"
+                                                placeholder="Email address *" required="">
+                                        </div>
+
+                                        <div class="col-12 col-sm-6 col-md-5 mb-3 mb-lg-0">
+
+                                            <div class="input-group flex-nowrap">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text bg-white border-right-0"
+                                                        id="addon-wrapping">+971</span>
+                                                </div>
+                                                <input id="MobileNumber" type="number"
+                                                    class="form-control px-0 py-4 border-left-0"
+                                                    placeholder="Phone number *" aria-label="number"
+                                                    aria-describedby="addon-wrapping">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-center">
+                                        <div class="col-12 col-sm-6 col-md-5 mb-3 mb-lg-0 was-validated">
+
+                                            <button
+                                                class="btn shadowBox btn-block mb-3 mb-md-0 py-3 mr-0 mr-md-4 font-weight-bold">Male</button>
+                                        </div>
+
+                                        <div class="col-12 col-sm-6 col-md-5 mb-3 mb-lg-0">
+
+                                            <button class="btn shadowBox btn-block py-3 mt-0 font-weight-bold">
+                                                Female
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between  mt-5">
+                            <div>
+                                <a href="/" class="btn btn-outline-secondary">
+                                    <i class="fas fa-angle-left" aria-hidden="true"></i>
+                                    Previous
+                                </a>
+                            </div>
+                            <div>
+                                <a href="/" class="btn btn-outline-secondary font-weight-bold">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                    Get Quotes
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="cover-match-form__side-bar d-none d-lg-block col-4 rounded p-3">
+                        <div class="cover-match-primary-heading-small mb-4">Your Policy details are here</div>
+                        <div class="covermatch-bg-1 h-100">
+                            <div class="p-3">
+                                <div class="h6 font-weight-bold text-uppercase">Coverage Details</div>
+                            </div>
+                            <div class="p-3 text-muted border-top border-secondary">
+                                <div class="h6 font-weight-bold text-uppercase">
+                                    HOME BELONGINGS COST
+                                </div>
+                                <div class="d-flex justify-content-between small">
+                                    <span>Home belonings cost range</span>
+                                    <a href="/" class="font-weight-bold text-info">1 - 50K</a>
+                                </div>
+                                <div class="d-flex justify-content-between small">
+                                    <span>Personal belonings cost range</span>
+                                    <a href="/" class="font-weight-bold text-info">1 - 3K</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- Cover-match-form-on-50%-end -->
         </main>
         <!-- Section-Main-End  -->
 
@@ -328,6 +466,10 @@
             $('.js-example-basic-single').select2({
                 tags: true,
             });
+        });
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
         });
     </script>
 
