@@ -16,7 +16,6 @@
 * {
   font-family: "Open Sans", sans-serif;
   line-height: 1.8;
-
 }
 
 body {
@@ -94,7 +93,6 @@ textarea {
   letter-spacing: 1.5px;
 }
 
-
 .quote {
   font-size: 2em;
   font-weight: bolder;
@@ -108,9 +106,8 @@ textarea {
 /* ----Select-2-Custom-Style---- */
 
 .select2-container {
-  margin-right: .5rem !important;
+  margin-right: 0.5rem !important;
 }
-
 
 .select2-container--default .select2-selection--single {
   height: 50px !important;
@@ -118,11 +115,13 @@ textarea {
   align-items: center !important;
 }
 
-.select2-container--default .select2-selection--single .select2-selection__arrow b {
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow
+  b {
   top: 25px !important;
   left: -10px !important;
   border-width: 6px 5px 0 5px !important;
-
 }
 
 /* Nk-Style */
@@ -148,7 +147,6 @@ textarea {
   border-radius: 15px;
 }
 
-
 /* Services-Home-insurance */
 
 .services-home-insurance .banner {
@@ -162,7 +160,8 @@ textarea {
 /* Section-Travel-insurance */
 
 .services-travel-insurance {
-  background: url(https://thumbs.dreamstime.com/b/friends-travel-around-city-electronic-map-tablet-flat-d-character-illustration-concept-animation-web-165941194.jpg) no-repeat bottom;
+  background: url(./images/services-insurance/Traveling-Editedmj.jpg) no-repeat
+    bottom;
   background-size: cover;
 }
 
@@ -173,36 +172,38 @@ textarea {
 /* Section-Car-insurance */
 
 .services-car-insurance {
-  background: url(./images/services-insurance/services-car-copy-Mon.jpg) no-repeat bottom;
+  background: url(./images/services-insurance/services-car-copy-Mon.jpg)
+    no-repeat bottom;
   background-size: cover;
 }
 
 /* Section-Bike-insurance */
 
 .services-bike-insurance {
-  background: url(./images/services-insurance/Motor-Bike-I.jpg) no-repeat bottom;
+  background: url(./images/services-insurance/Motor-Bike-I.png) no-repeat bottom;
   background-size: cover;
 }
 
 /* Section-life-insurance */
 
 .services-life-insurance {
-  background: url(./images/services-insurance/Insurance-policy.jpg) no-repeat bottom;
+  background: url(./images/services-insurance/Insurance-policy.jpg) no-repeat
+    bottom;
   background-size: cover;
 }
 
 /* Section-health-insurance */
 
 .services-health-insurance {
-  background: url(./images/services-insurance/Hospital-illustration1.jpg) no-repeat bottom;
+  background: url(./images/services-insurance/Hospital-illustration1.jpg)
+    no-repeat bottom;
   background-size: cover;
 }
-
 
 /* Section-Yacht-insurance */
 
 .services-yacht-insurance {
-  background: url(./images/services-insurance/Yacht.jpg) no-repeat top;
+  background: url(./images/services-insurance/Yacht.png) no-repeat top;
   background-size: cover;
 }
 
@@ -213,7 +214,7 @@ textarea {
 }
 
 .cover-match-card-section .card-body {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 /* -------- */
@@ -222,7 +223,6 @@ textarea {
   height: 270px;
   border-radius: 35px;
 }
-
 
 /* ---------- */
 
@@ -235,7 +235,7 @@ textarea {
 }
 
 .nk-heading--white {
-  color: var(--color-white);
+  color: var(--color-dark-gray);
 }
 
 .nk-border-radius-25 {
@@ -259,7 +259,7 @@ textarea {
   font-weight: 800 !important;
   color: #000;
 
-  margin-bottom: .3rem;
+  margin-bottom: 0.3rem;
 
   line-height: 1.2 !important;
 }
@@ -277,7 +277,7 @@ textarea {
 }
 
 .cover-match-primary-paragraph-small {
-  font-size: .85rem;
+  font-size: 0.85rem;
 }
 
 /* ------- */
@@ -357,7 +357,7 @@ textarea {
 }
 
 .checkbox__label:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 4px;
   left: 0;
@@ -374,7 +374,7 @@ textarea {
 }
 
 .checkbox__label:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 5px;
   left: 5px;
@@ -389,12 +389,12 @@ textarea {
   transition: border-color 0.28s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox__input:checked+.checkbox__label:before {
+.checkbox__input:checked + .checkbox__label:before {
   background-color: #3f51b5;
   border-color: #3f51b5;
 }
 
-.checkbox__input:checked+.checkbox__label:after {
+.checkbox__input:checked + .checkbox__label:after {
   border-color: #fff;
 }
 
@@ -411,14 +411,12 @@ footer a:hover {
   color: var(--color-primary);
 }
 
-
 /* ------ */
 
 @media only Screen and (max-width: 550px) {
   .cover-match-primary-heading {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
-
 }
 
 @media only Screen and (max-width: 768px) {
@@ -441,7 +439,7 @@ footer a:hover {
   }
 
   .cover-match-btn-primary {
-    font-size: .5rem !important;
+    font-size: 0.5rem !important;
   }
 
   .cover-match-primary-heading {
@@ -449,30 +447,28 @@ footer a:hover {
   }
 
   .cover-match-primary-paragraph {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 
   .cover-match-card-section button {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 
   .cover-match-card-section .card-body {
-    font-size: .6rem;
+    font-size: 0.6rem;
   }
 
-
   .cover-match-primary-heading-small {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .cover-match-primary-paragraph-small {
-    font-size: .65rem;
+    font-size: 0.65rem;
   }
 
   .cover-match-form__gallery {
     width: 100px;
     height: 100px;
-
   }
 
   .nk-text-align-responsive {
@@ -480,7 +476,6 @@ footer a:hover {
   }
 
   footer a {
-    font-size: .6rem;
+    font-size: 0.6rem;
   }
-
 }
