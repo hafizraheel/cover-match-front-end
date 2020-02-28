@@ -1,4 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap"); */
+
+@font-face {
+  font-family: Nirmala;
+  src: url("./fonts/Nirmala.ttf");
+}
 
 :root {
   --color-white: #ffffff;
@@ -14,7 +19,8 @@
 }
 
 * {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Nirmala";
   line-height: 1.8;
 }
 
@@ -136,8 +142,18 @@ textarea {
 .cover-match-form__main-form button:active,
 .cover-match-custom-active {
   text-decoration: none;
-  background-color: rgba(0, 47, 100, 0.9) !important;
-  color: var(--color-white) !important;
+  background-color: rgba(0, 47, 100, 0.9);
+  color: var(--color-white);
+  outline: unset;
+}
+
+.cover-match-link {
+  color: #007bff !important;
+}
+
+.cover-match-link:hover {
+  color: #969899 !important;
+  background-color: var(--color-white) !important;
 }
 
 .cover-match-form__gallery {
@@ -332,6 +348,14 @@ textarea {
 
 /*  */
 
+.cm-custom-chechbox-height-24 {
+  height: 24px;
+}
+
+.cm-custom-chechbox-height-24::before {
+  border-radius: 1rem !important;
+}
+
 .checkbox {
   display: inline-block;
   position: relative;
@@ -412,6 +436,8 @@ footer a:hover {
 }
 
 /* ------ */
+
+/* ------- */
 
 @media only Screen and (max-width: 550px) {
   .cover-match-primary-heading {
